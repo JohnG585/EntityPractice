@@ -1,3 +1,4 @@
+using EntityPractice.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace EntityPractice.Persistence
@@ -7,5 +8,6 @@ namespace EntityPractice.Persistence
         public EPDbContext(DbContextOptions<EPDbContext> options) : base(options)
         { 
         }
+        public DbSet<Make> Makes { get; set; }
     }
 }
