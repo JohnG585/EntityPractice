@@ -11,9 +11,10 @@ using System;
 namespace entityPractice.Migrations
 {
     [DbContext(typeof(EPDbContext))]
-    partial class EPDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180310204133_SeedDatabase")]
+    partial class SeedDatabase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
