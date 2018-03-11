@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace entityPractice.Migrations
+namespace EntityPractice.Migrations
 {
     public partial class ApplyConstraints : Migration
     {

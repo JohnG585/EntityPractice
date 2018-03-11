@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
 using System;
 
-namespace entityPractice.Migrations
+namespace EntityPractice.Migrations
 {
     [DbContext(typeof(EPDbContext))]
     [Migration("20180310203823_ApplyConstraints")]
