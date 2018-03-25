@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EntityPractice.Models
+namespace EntityPractice.Core.Models
 {
     [Table("VehicleFeatures")]
     public class VehicleFeature
@@ -8,6 +8,6 @@ namespace EntityPractice.Models
         public int VehicleId { get; set; }
         public int FeatureId { get; set; }
         public Vehicle Vehicle { get; set; }
-        public Feature MyProperty { get; set; }
+        public Feature Feature { get; set; }
     }
 }

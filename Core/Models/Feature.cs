@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
-
-namespace EntityPractice.Models
+using EntityPractice.Core;
+namespace EntityPractice.Core.Models
 {
     public class Feature
     {

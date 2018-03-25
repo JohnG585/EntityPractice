@@ -6,6 +6,7 @@ using EntityPractice.Models;
 using EntityPractice.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using EntityPractice.Core;
 
 namespace EntityPractice.Controllers
 {

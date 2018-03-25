@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace EntityPractice.Models
+namespace EntityPractice.Core.Models
 {
     public class Make
     {
